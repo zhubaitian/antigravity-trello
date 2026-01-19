@@ -29,7 +29,7 @@ export const useBoardStore = defineStore('board', {
       lists: [
         {
           id: 'list-1',
-          title: 'To Do',
+          title: '待办事项',
           cards: [
             { id: 'card-1', title: 'Learn Vue 3' },
             { id: 'card-2', title: 'Master Pinia' }
@@ -37,14 +37,14 @@ export const useBoardStore = defineStore('board', {
         },
         {
           id: 'list-2',
-          title: 'In Progress',
+          title: '进行中',
           cards: [
             { id: 'card-3', title: 'Build Trello App' }
           ]
         },
         {
           id: 'list-3',
-          title: 'Done',
+          title: '已完成',
           cards: []
         }
       ]
